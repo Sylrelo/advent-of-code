@@ -1,6 +1,5 @@
-use std::{collections::VecDeque, fs};
-
 use regex::Regex;
+use std::{collections::VecDeque, fs};
 
 fn print_stacks(stacks: &Vec<VecDeque<char>>) {
     for (index, stack) in stacks.into_iter().enumerate() {
